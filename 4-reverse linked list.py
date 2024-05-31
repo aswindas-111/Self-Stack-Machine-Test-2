@@ -1,15 +1,3 @@
-# def reverse(head):
-#     prev = None
-#     cur = head
-    
-#     while cur:
-#         nextptr = cur.next
-#         cur.next = prev
-#         prev = current
-#         current = nextptr
-#     return prev
-# print(reverse([1,2,3,4]))
-
 class Node:
     def __init__(self, value):
         self.value = value
